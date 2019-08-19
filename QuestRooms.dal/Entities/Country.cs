@@ -15,6 +15,6 @@ namespace QuestRooms.dal.Entities
         public int CountryID { get; set; }
         public string CountryName { get; set; }
 
-        public virtual ICollection<Country> Countries { get; set; }
+        public virtual ICollection<City> Cities { get; set; }
     }
 }

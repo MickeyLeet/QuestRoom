@@ -14,5 +14,8 @@ namespace QuestRooms.dal.Entities
         [Key]
         public int CityID { get; set; }
         public string CityName { get; set; }
+
+        public virtual ICollection<Street> Streets { get; set; }
+
     }
 }

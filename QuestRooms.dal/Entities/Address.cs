@@ -15,6 +15,6 @@ namespace QuestRooms.dal.Entities
         public int AddressID { get; set; }
         public string AddressName { get; set; }
 
-        public virtual ICollection<Address> Addresses { get; set; }
+        public virtual ICollection<Room> Rooms { get; set; }
     }
 }
