@@ -5,10 +5,10 @@ namespace QuestRooms.dal
     using System.Data.Entity;
     using System.Linq;
 
-    public class QuestRoom : DbContext
+    public class QuestRoomContext : DbContext
     {
 
-        public QuestRoom()
+        public QuestRoomContext()
             : base("name=QuestRoom")
         {
         }
